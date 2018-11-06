@@ -3,10 +3,10 @@ import io.appium.java_client.android.AndroidDriver;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import po.LoginScreenPageAndroid;
-import po.LoginScreenPageObject;
-import po.LoginScreenPageiOS;
-import po.Utils;
+import po.logIn.LoginScreenPageAndroid;
+import po.logIn.LoginScreenPageObject;
+import po.logIn.LoginScreenPageiOS;
+import util.Utils;
 
 public class LoginTests {
     private AppiumDriver<?> driver;
@@ -21,14 +21,14 @@ public class LoginTests {
 
     @After
     public void tearDown() {
-//        driver.quit();
+        driver.quit();
     }
 
     @Test
     public void loginTestAndroid() {
         LoginScreenPageObject loginScreenPageObject = new LoginScreenPageAndroid(driver);
-        loginScreenPageObject.setUsername();
-        loginScreenPageObject.setPassword();
+        loginScreenPageObject.setUsername("userName");
+        loginScreenPageObject.setPassword("password");
         loginScreenPageObject.clickOnLogin();
 
     }
@@ -36,8 +36,8 @@ public class LoginTests {
     @Test
     public void loginTestiOS() {
         LoginScreenPageObject loginScreenPageObject = new LoginScreenPageiOS(driver);
-        loginScreenPageObject.setUsername();
-        loginScreenPageObject.setPassword();
+        loginScreenPageObject.setUsername("userName");
+        loginScreenPageObject.setPassword("password");
         loginScreenPageObject.clickOnLogin();
     }
 }

@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="iOSAndroidInfraStrucure" target="1.7" />
+      <module name="iOSAndroidInfraStrucure" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
