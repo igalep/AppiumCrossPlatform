@@ -154,68 +154,6 @@
       </map>
     </option>
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-54010114">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="27" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.15" value="2" />
-          <entry key="project.open.time.17" value="2" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="4" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.25" value="2" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.38" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.41" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="29" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="8" />
-          <entry key="feature" value="5" />
-          <entry key="gitignore" value="1" />
-          <entry key="java" value="46" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="8" />
-          <entry key="Cucumber" value="5" />
-          <entry key="JAVA" value="46" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="feature" value="272" />
-          <entry key="java" value="538" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Cucumber" value="272" />
-          <entry key="JAVA" value="538" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -367,10 +305,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2078" />
-    <option name="y" value="63" />
-    <option name="width" value="1577" />
-    <option name="height" value="925" />
+    <option name="x" value="210" />
+    <option name="y" value="151" />
+    <option name="width" value="1260" />
+    <option name="height" value="771" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -426,7 +364,7 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.LoginTests.loginTestiOS">
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -442,6 +380,7 @@
       <module name="iOSAndroidInfraStrucure" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LoginTests" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -481,12 +420,14 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
