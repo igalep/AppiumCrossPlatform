@@ -6,7 +6,8 @@ import org.junit.Assert;
 import po.landing.LandingPage;
 import po.logIn.LogInPageFactory;
 import po.logIn.LoginScreenPageObject;
-import util.Utils;
+import util.DriverManager;
+import util.PropertiesReaderSingleton;
 
 /**
  * Created by epshtein.
@@ -20,8 +21,8 @@ public class LogInStepDef implements En {
 
     @Before
     public void setUp() throws Exception {
-        env = Utils.readProperty("run.platform");
-        driver = Utils.returnDriver(env);
+        env = PropertiesReaderSingleton.getInstance().getPropertyAsString("run.platform");
+        driver = DriverManager.returnDriver(env);
     }
 
     public LogInStepDef() {
