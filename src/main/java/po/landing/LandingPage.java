@@ -1,7 +1,7 @@
 package po.landing;
 
 import io.appium.java_client.AppiumDriver;
-import po.BasePage;
+import po.base.BasePage;
 
 /**
  * Created by epshtein.

@@ -4,7 +4,7 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITBy;
-import po.BasePage;
+import po.base.BasePage;
 
 
 public abstract  class LoginScreenPageObject extends BasePage implements LoginInterface{
@@ -24,11 +24,11 @@ public abstract  class LoginScreenPageObject extends BasePage implements LoginIn
 
 
     public void setUsername(String user) {
-        username.sendKeys(user);
+        clickOnElement(username);
     }
     
     public void setPassword(String pass) {
-        password.sendKeys(pass);
+        sendKeysToElement(password);
     }
 
     public abstract void clickOnLogin();

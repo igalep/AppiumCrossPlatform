@@ -21,6 +21,6 @@ public class LoginScreenPageAndroid extends LoginScreenPageObject{
     public void clickOnLogin() {
         //some specific logic for Android
 
-        login.click();
+        tapOnElement(login);
     }
 }

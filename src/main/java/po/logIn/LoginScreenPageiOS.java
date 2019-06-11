@@ -18,6 +18,6 @@ public class LoginScreenPageiOS extends LoginScreenPageObject {
 
     public void clickOnLogin() {
         //some specific logic for iOS
-        login.click();
+        clickOnElement(login);
     }
 }
