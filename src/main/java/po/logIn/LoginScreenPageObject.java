@@ -24,11 +24,11 @@ public abstract  class LoginScreenPageObject extends BasePage implements LoginIn
 
 
     public void setUsername(String user) {
-        clickOnElement(username);
+        sendKeysToElement(username, user);
     }
     
     public void setPassword(String pass) {
-        sendKeysToElement(password);
+        sendKeysToElement(password, pass);
     }
 
     public abstract void clickOnLogin();

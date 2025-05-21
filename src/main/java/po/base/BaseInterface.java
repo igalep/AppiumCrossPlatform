@@ -8,6 +8,6 @@ import io.appium.java_client.MobileElement;
  */
 public interface BaseInterface {
     void clickOnElement(MobileElement element);
-    void sendKeysToElement(MobileElement element);
+    void sendKeysToElement(MobileElement element, String keysToSend);
     void tapOnElement(MobileElement element);
 }

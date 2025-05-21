@@ -34,7 +34,7 @@ public class LogInStepDef implements En {
         });
 
         Then("^the landing page is \"([^\"]*)\"$", (String flag) -> {
-            boolean bFlag= Boolean.getBoolean(flag);
+            boolean bFlag= Boolean.parseBoolean(flag);
 
             Assert.assertEquals(bFlag , new LandingPage(driver).isDisplayed());
         });

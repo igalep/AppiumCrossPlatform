@@ -22,8 +22,8 @@ public class BasePage implements BaseInterface{
         element.click();
     }
 
-    public void sendKeysToElement(MobileElement element){
-        element.sendKeys();
+    public void sendKeysToElement(MobileElement element, String keysToSend){
+        element.sendKeys(keysToSend);
     }
 
     public void tapOnElement(MobileElement element){
